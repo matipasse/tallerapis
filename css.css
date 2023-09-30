@@ -1,0 +1,18 @@
+body {
+    text-align: center;
+    background-image: url('https://i.gifer.com/OPXN.gif');
+    background-size: cover; 
+}
+
+.pokemon {
+    padding-block: 1rem;
+    text-transform: uppercase;
+}
+#nombre{
+    font-style: oblique;
+    color: white;
+}
+
+#imagen{
+    height: 200px;
+}
