@@ -14,9 +14,10 @@ document.addEventListener('DOMContentLoaded', () => {
 
     
                 let resultadoHTML = `
-                    
-                    <img src="${imagen} id"imagen" alt="${nombre}">
+                    <div class="contenedor">
+                    <img src="${imagen}" id="imagen" alt="${nombre}">
                     <p id="nombre">${nombre}<p>
+                    </div>
 
                 `;
     

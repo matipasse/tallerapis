@@ -7,12 +7,28 @@ body {
 .pokemon {
     padding-block: 1rem;
     text-transform: uppercase;
+
 }
 #nombre{
     font-style: oblique;
-    color: white;
-}
+    color: black;
+    background-color: white;
+    height: auto;
+    width: 200px;
+    margin: 0%;
+    border-radius: 10px;
 
-#imagen{
+}
+.contenedor{
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* Centrar horizontalmente */
+    align-items: center; /* Centrar verticalmente */
+    height: 40vh; /* Altura del viewport */
+  }
+
+#imagen {
     height: 200px;
+    background-color: white;
+    border-radius: 10px;
 }
